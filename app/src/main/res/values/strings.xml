@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <string name="donthaveaccount">Dont have an account ?</string>
+</resources>
