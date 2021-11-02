@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(p0: View?) {
-        val intent = Intent(this, ListData::class.java)
+        val intent = Intent(this, DashboardActivity::class.java)
 //        val data = Bundle()
 //        data.putString("message", "Ini isi dari bundle")
 //        intent.putExtras(data)
