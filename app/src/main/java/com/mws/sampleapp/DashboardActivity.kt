@@ -1,5 +1,6 @@
 package com.mws.sampleapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ContextMenu
@@ -66,7 +67,9 @@ class DashboardActivity : AppCompatActivity() {
 
         return when (item.itemId) {
             R.id.option_settings->{
-                Toast.makeText(applicationContext, "Click On Setting", Toast.LENGTH_LONG).show()
+//                Toast.makeText(applicationContext, "Click On Setting", Toast.LENGTH_LONG).show()
+                val intentFragment = Intent(this, FragmentActivity::class.java)
+                startActivity(intentFragment)
                 return true
             }
             R.id.option_favorites->{
